@@ -1,7 +1,7 @@
 compose_addressbook
 ===================
 
-compose_addressbook plugin adds a button to the compose screen allowing you to select contacts with the mouse. These contacts can then be added to your recipients (To/CC/BCC) with a mouse click. This plugin does not work with the larry skin, as it already has an addressbook in the compose area. Only use with the old skin. 
+compose_addressbook plugin adds a button to the compose screen allowing you to select contacts with the mouse. These contacts can then be added to your recipients (To/CC/BCC) with a mouse click. This plugin does not work with the larry skin, as it already has an addressbook in the compose area. Only use with the classic skin. 
 
 FEATURES
 --------
@@ -13,10 +13,11 @@ FEATURES
 - you can drag the window using the top name bar
 - use the search field to search in your addressbook
 
-OLD VERSION
------------
+OLD VERSIONS
+------------
 
-This project has moved from Google Code to git. Older version are available at [Google Code](http://code.google.com/p/roundcube-plugins/downloads/list).
+This project has moved from Google Code to git. Older version are available at [Google Code](http://code.google.com/p/roundcube-plugins/downloads/list). This git repository is only for roundcube versions 0.8 and higher.
+
 LICENSE
 -------
 
