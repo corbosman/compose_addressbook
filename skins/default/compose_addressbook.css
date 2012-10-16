@@ -1,0 +1,83 @@
+#compose_addressbook_dialog {
+  display: none;
+  background-color: #FAFAFA;
+  color: #333;
+  padding: 5px 0 0 0;
+  overflow: hidden;
+}
+
+#compose_addressbook_dialog .ui-dialog {
+  padding: 0;
+}
+
+#compose_addressbook_container {
+  height: 376px;
+  overflow: auto;
+  overflow-x: hidden;
+  border-top: 1px solid #AAAAAA;
+  position: relative;
+  top: 30px;
+}
+
+#compose_addressbook_dialog table {
+  width: 100%;
+  overflow: hidden;
+}
+
+#compose_addressbook_quicksearchbar
+{
+  position: absolute;
+  left: 60px;
+  width: 182px;
+  height: 20px;
+  text-align: right;
+  background: url('searchfield.gif') top left no-repeat;
+}
+
+#compose_addressbook_searchreset
+{
+  position: absolute;
+  top: 3px;
+  right: 4px;
+  text-decoration: none;
+}
+
+#compose_addressbook_searchmod
+{
+ position: absolute;
+ top: 3px;
+ right: 160px;
+}
+
+#compose_addressbook_quicksearchbar img
+{
+  vertical-align: middle;
+}
+
+#compose_addressbook_filter
+{
+  margin-right: 4px;
+  margin-bottom: 5px;
+  position: absolute;
+  top: 2px;
+  left: 24px;
+  width: 140px;
+  height: 15px;
+  font-size: 11px;
+  padding: 0px;
+  border: none;
+}
+
+#compose_addressbook_dialog input {
+  outline: none;
+  border: none !important;
+}
+
+#compose_addressbook_filter[type=text]:focus {
+  outline: 0 none;
+}
+
+.ui-dialog-buttonpane button {
+  font-size: 10px !important;
+  width: 85px !important;
+}
