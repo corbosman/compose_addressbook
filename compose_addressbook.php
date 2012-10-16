@@ -13,6 +13,11 @@ class compose_addressbook extends rcube_plugin
   public function init()
   {  
     $rcmail = rcmail::get_instance();
+    
+    // only run this plugin if the skin is set to classic
+    $skin = $rcmail->config->get('skin');
+    if($skin != 'classic') return;
+    
     $this->require_plugin('jqueryui');
 
     $this->register_action('plugin.get_addressbook', array($this, 'get_address'));
@@ -30,7 +35,7 @@ class compose_addressbook extends rcube_plugin
     $rcmail = rcmail::get_instance();
     
     $skin_path = $this->local_skin_path();
-  
+    
     // add javascript and stylesheets
     $this->include_script('compose_addressbook.js?v=2');
     $this->include_stylesheet("$skin_path/compose_addressbook.css");
