@@ -13,6 +13,10 @@ FEATURES
 - you can drag the window using the top name bar
 - use the search field to search in your addressbook
 
+OLD VERSION
+-----------
+
+This project has moved from Google Code to git. Older version are available at [Google Code](http://code.google.com/p/roundcube-plugins/downloads/list).
 LICENSE
 -------
 
