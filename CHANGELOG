@@ -4,5 +4,6 @@ CHANGELOG compose_addressbook
 RELEASE 8.0 
 -----------
 - change theme from default to classic
+- only run this plugin when classic skin is set
 
 
