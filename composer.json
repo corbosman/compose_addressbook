@@ -5,7 +5,13 @@
   "type": "roundcube-plugin",
   "require": {
           "roundcube/plugin-installer": ">=0.1.0"
-       },
+      },
+  "repositories": [
+          {
+           "type": "composer",
+           "url": "http://plugins.roundcube.net"
+          }
+      ],
   "homepage":"https://github.com/corbosman/compose_addressbook",
   "authors": [
           {
